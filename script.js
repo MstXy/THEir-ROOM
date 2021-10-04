@@ -1,4 +1,19 @@
-// video autoplay
+// navigation
+load_index = function() {
+  window.location.href = "index.html";
+}
+load_room = function() {
+  window.location.href = "explore.html";
+}
+load_item = function() {
+  window.location.href = "http://www.w3schools.com";
+}
+load_goal = function() {
+  window.location.href = "http://www.w3schools.com";
+}
+
+// INTRO PAGE ==============================================
+// video play
 start_video_play = function() {
   document.getElementById("start_video").play();
   document.getElementById("play_button").style.opacity = "10%";
@@ -17,16 +32,6 @@ video_end = function() {
 }
 
 
-// navigation
-load_index = function() {
-  window.location.href = "index.html";
-}
-load_room = function() {
-  window.location.href = "explore.html";
-}
-load_item = function() {
-  window.location.href = "http://www.w3schools.com";
-}
-load_goal = function() {
-  window.location.href = "http://www.w3schools.com";
-}
+// ROOM PAGE ===============================================
+var $img = $("#img1");
+$img.width($img.width() * .5);

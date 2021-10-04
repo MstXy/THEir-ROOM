@@ -46,8 +46,7 @@ html {
   cursor: pointer;
 }
 
-/* first section */
-.video-container {
+.container {
   z-index: -1;
   position: absolute;
   top: 50%;
@@ -59,6 +58,8 @@ html {
 
 }
 
+
+/* HOME PAGE BEGIN ========================================== */
 #play_button {
   opacity: 50%;
   cursor: pointer;
@@ -73,7 +74,7 @@ html {
   opacity: 80%;
 }
 
-.video-container video {
+#video-container video {
   width: 75vw;
   height: auto;
 
@@ -94,18 +95,8 @@ html {
   cursor: pointer;
 }
 
-.intro-container {
-  z-index: -1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  width: 90vw;
-  height: 100%;
-  overflow: hidden;
-
+#intro-container {
   display: none;
-
 }
 
 .intro-content {
@@ -130,4 +121,30 @@ html {
   font-size: 1.2em;
   color: white;
   cursor: pointer;
+}
+
+/* HOME PAGE END ========================================== */
+/* ROOM PAGE BEGIN ========================================== */
+
+#room-container {
+  background-color: grey;
+}
+
+#room-images {
+  width: 75vw;
+  height: 80vh;
+
+  /* Center the video */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.room-images {
+  position: absolute;
+}
+
+#img1{
+
 }
