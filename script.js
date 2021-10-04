@@ -33,21 +33,26 @@ video_end = function() {
 
 
 // ROOM PAGE ===============================================
+//remember every image's zIndex
+let zIndexMemorizer = [];
+
 $('.room-images').each(function() {
   var $img = $(this);
   $img.on('load', function(){
     $img.width($img.width()*.5);
+    zIndexMemorizer.push($img.css('z-index'));
   });
 });
+
 
 var items = document.getElementsByClassName('room-images');
 for (var i = 0; i < items.length; i++) {
   items[i].addEventListener('click', showDescription);
 }
-
+console.log(zIndexMemorizer);
 function showDescription(e) {
   // for text
-  displaying = document.getElementsByClassName('obj_description');
+  var displaying = document.getElementsByClassName('obj_description');
   for (var i = 0; i < displaying.length; i++) {
     displaying[i].style.display = "none";
   }
@@ -55,10 +60,18 @@ function showDescription(e) {
   document.getElementById("d"+id).style.display = "block";
 
   //for image
-
+  var highlighting = document.getElementsByClassName('room-images');
+  for (var i = 0; i < highlighting.length; i++) {
+    highlighting[i].style.border = "";
+    highlighting[i].style.filter = "";
+    highlighting[i].style.zIndex = zIndexMemorizer[i];
+  }
+  this.style.border = "double white 6px";
+  this.style.filter = "drop-shadow(0 0 0.75rem white)";
+  this.style.zIndex = 100;
 }
 
-var audioPlaying = false;
+var playingAudio = 0;
 var audios = document.getElementsByClassName('audioBtn');
 for (var i = 0; i < audios.length; i++) {
   audios[i].addEventListener('click', playAudio);
@@ -66,10 +79,22 @@ for (var i = 0; i < audios.length; i++) {
 
 function playAudio(e) {
   id = this.id.replace("a", "");
-  if (audioPlaying) {
-    document.getElementById("audio"+id).pause();
+  if (playingAudio != 0) {
+    if (id == playingAudio) {
+      document.getElementById("audio"+id).pause();
+      playingAudio = 0;
+    } else {
+      var playing = document.getElementsByClassName('audios');
+      for (var i = 0; i < playing.length; i++) {
+        playing[i].pause();
+        playing[i].currentTime = 0;
+      }
+      document.getElementById("audio"+id).play();
+      playingAudio = id;
+    }
   } else {
     document.getElementById("audio"+id).play();
+    playingAudio = id;
   }
 
 }

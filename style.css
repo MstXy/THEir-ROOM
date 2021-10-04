@@ -262,3 +262,6 @@ html {
 .audioBtn {
   cursor: pointer;
 }
+.audios {
+  display: none;
+}
