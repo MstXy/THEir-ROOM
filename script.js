@@ -33,5 +33,43 @@ video_end = function() {
 
 
 // ROOM PAGE ===============================================
-var $img = $("#img1");
-$img.width($img.width() * .5);
+$('.room-images').each(function() {
+  var $img = $(this);
+  $img.on('load', function(){
+    $img.width($img.width()*.5);
+  });
+});
+
+var items = document.getElementsByClassName('room-images');
+for (var i = 0; i < items.length; i++) {
+  items[i].addEventListener('click', showDescription);
+}
+
+function showDescription(e) {
+  // for text
+  displaying = document.getElementsByClassName('obj_description');
+  for (var i = 0; i < displaying.length; i++) {
+    displaying[i].style.display = "none";
+  }
+  id = this.id.replace("img", "");
+  document.getElementById("d"+id).style.display = "block";
+
+  //for image
+
+}
+
+var audioPlaying = false;
+var audios = document.getElementsByClassName('audioBtn');
+for (var i = 0; i < audios.length; i++) {
+  audios[i].addEventListener('click', playAudio);
+}
+
+function playAudio(e) {
+  id = this.id.replace("a", "");
+  if (audioPlaying) {
+    document.getElementById("audio"+id).pause();
+  } else {
+    document.getElementById("audio"+id).play();
+  }
+
+}
