@@ -2,19 +2,41 @@
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="/images/site-logo.jpg">
     <meta charset="utf-8">
-    <title>The Room</title>
+    <title>THEir Room</title>
   </head>
   <body>
+    <div class="title">
+      <p id="project_title">THEir<br>ROOM</p>
+    </div>
+
     <div class="video-container" id="video-container">
       <video id="start_video" onended="video_end()">
-        <source src="https://rr2---sn-4wg7zne7.c.drive.google.com/videoplayback?expire=1633296963&ei=A-pZYeSEIJntu7AP-saHwA8&ip=91.230.41.202&cp=QVRIVUNfVVlURFhPOmdaUHZFUFM4Mmk1OGpkSGpRXzRnM2xUVEVVUm05V1UzZmphajNDLWVxbDc&id=9025807c7e96188c&itag=37&source=webdrive&requiressl=yes&mh=nG&mm=32&mn=sn-4wg7zne7&ms=su&mv=u&mvi=2&pl=24&ttl=transient&susc=dr&driveid=1x41unL4kqSigkLncaa5CvtAIqbZf2I5h&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=60.743&lmt=1632930208862137&mt=1633281950&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRgIhAMRHgpWHw20-W3lmTYSDl2FklFI4JeO7yYIi2GHiHPqHAiEAjGkx8LjQfNQxVQMnqD866uwRdqXhiSsXmfWCYZoWBdQ=&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRQIgMUPhQr3oRO5xooocxdOPEOrM9MXZzvZmFcbzYZxeGooCIQDhu8avspf2-gLl14mn4kKhfDTQehoR2xGI3Jc1yQXF9g==&cpn=RpgWvt-43Dsecbpg&c=WEB_EMBEDDED_PLAYER&cver=1.20210928.1.1" type='video/mp4'>
+        <source src="https://imanas.shanghai.nyu.edu/~cz1627/ai/video/intro2.mp4" type='video/mp4'>
       </video>
       <img src="images/play-button.svg" alt="play_button" id="play_button" onclick="start_video_play()">
 
       <div id="skip_button" onclick="video_end()">
         <p><u>Skip >></u></p>
       </div>
+    </div>
+
+    <div class="intro-container" id="intro-container">
+      <div class="intro-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>BigGAN-GPT2</p>
+      </div>
+      <div id="explore_button" onclick="load_room()">
+        <p><u>Explore >></u></p>
+      </div>
+    </div>
+
+    <div class="navigator">
+      <p class="nav_item" id="nav_1" onclick="load_index()">Intro</p>
+      <p class="nav_item" id="nav_2" onclick="load_room()">Explore</p>
+      <p class="nav_item" id="nav_3" onclick="load_item()">Item Entry</p>
+      <p class="nav_item" id="nav_4" onclick="load_goal()">Our Goal</p>
     </div>
 
 
