@@ -1,11 +1,21 @@
 @font-face {
-  font-family: Inconsolata1;
+  font-family: Inconsolata;
   src: url(fonts/Inconsolata-VariableFont_wdth,wght.ttf);
+}
+
+@font-face {
+  font-family: Alien;
+  src: url(fonts/Zdyk-Sagittarius.otf);
 }
 
 html {
   background-color: black;
-  font-family: Inconsolata1;
+  font-family: Inconsolata;
+}
+
+::selection {
+  color: black;
+  background: #00ffdd;
 }
 
 /* animations */
@@ -21,7 +31,7 @@ html {
 
 /* title */
 .title {
-  position: absolute;
+  position: fixed;
   text-align: left;
   left: 20px;
   bottom: 10px;
@@ -34,7 +44,7 @@ html {
 /* navigator */
 .navigator {
   z-index: 1;
-  position: absolute;
+  position: fixed;
   width: 10%;
   left: 20px;
 
@@ -282,4 +292,43 @@ html {
 }
 .audios {
   display: none;
+}
+
+
+/* ROOM PAGE END ========================================== */
+/* ITEM PAGE BEGIN ========================================== */
+#item-container {
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%,0);
+  height: 10000px;
+
+  background-color: grey;
+
+}
+
+.item-content {
+  width: 70%;
+  height: auto;
+
+  position: absolute;
+  top: 40px ;
+  left: 50%;
+  transform: translate(-50%,0);
+
+  color: white;
+  font-size: 1.5em;
+  background-color: black;
+}
+
+.item-image-set {
+  width: 800px;
+  height: auto;
+}
+
+.item-name {
+  font-weight: bold;
+  position: absolute;
+  transform-origin: left;
+  transform: translate(875px,-350px) rotate(90deg);
 }

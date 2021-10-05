@@ -7,10 +7,10 @@ load_room = function() {
   window.location.href = "explore.html";
 }
 load_item = function() {
-  window.location.href = "http://www.w3schools.com";
+  window.location.href = "item-entry.html";
 }
 load_goal = function() {
-  window.location.href = "http://www.w3schools.com";
+  window.location.href = "our-goal.html";
 }
 
 // INTRO PAGE ==============================================
