@@ -176,6 +176,7 @@ html {
     top:48%;
 }
 #img5 {
+  z-index: 0;
     left:4%;
     top:25%;
 }
@@ -229,6 +230,7 @@ html {
     top:45%;
 }
 #img16 {
+  z-index: 1;
     left:2%;
     top:12%;
 }
