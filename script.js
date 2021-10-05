@@ -1,3 +1,4 @@
+
 // navigation
 load_index = function() {
   window.location.href = "index.html";
@@ -39,7 +40,7 @@ let zIndexMemorizer = {};
 $('.room-images').each(function() {
   var $img = $(this);
   $img.on('load', function(){
-    $img.width($img.width()*.5);
+    // $img.width($img.width()*.5);
     zIndexMemorizer[$img.attr("id")] = $img.css('z-index');
   });
 });

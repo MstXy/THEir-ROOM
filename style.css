@@ -156,80 +156,96 @@ html {
 }
 
 #img1 {
+  width: 159px;
   z-index: 4;
     left:62%;
     top:10%;
 }
 #img2 {
+  width: 141px;
   z-index: 5;
     left:18%;
     top:40%;
 }
 #img3 {
+  width: 85px;
   z-index: 5;
     left:17%;
     top:50%;
 }
 #img4 {
+  width: 92px;
   z-index: 5;
     left:9%;
     top:48%;
 }
 #img5 {
+  width: 463px;
   z-index: 0;
     left:4%;
     top:25%;
 }
 #img6 {
+  width: 240px;
   z-index: 2;
     left:35%;
     top:45%;
 }
 #img7 {
+  width: 167px;
     left:35%;
     top:65%;
 }
 #img8 {
+  width: 121.5px;
   z-index: 5;
     left:72%;
     top:28%;
 }
 #img9 {
+  width: 94.5px;
   z-index: 5;
     left:72%;
     top:76%;
 }
 #img10 {
+  width: 128px;
   z-index: 5;
     left:66%;
     top:47%;
 }
 #img11 {
+  width: 94px;
   z-index: 5;
     left:28%;
     top:48%;
 }
 #img12 {
+  width: 279px;
   z-index: 1;
     left:32%;
     top:14%;
 }
 #img13 {
+  width: 358.5px;
   z-index: 3;
     left:52%;
     top:35%;
 }
 #img14 {
+  width: 102px;
   z-index: 5;
     left:55%;
     top:25%;
 }
 #img15 {
+  width: 137px;
   z-index: 5;
     left:54%;
     top:45%;
 }
 #img16 {
+  width: 150px;
   z-index: 1;
     left:2%;
     top:12%;
