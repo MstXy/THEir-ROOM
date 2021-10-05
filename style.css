@@ -303,6 +303,20 @@ html {
   font-family: Alien;
 }
 
+.sidebar {
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  transform: translate(0,-50%);
+}
+.side_description {
+  color: white;
+  text-align: center;
+}
+.side_alien {
+  font-family: Alien;
+}
+
 #item-container {
   top: 0%;
   left: 50%;
