@@ -326,7 +326,7 @@ html {
 
 #item-container {
   top: 0%;
-  left: 50%;
+  left: 45%;
   transform: translate(-50%,0);
   height: 10000px;
 }
@@ -363,12 +363,9 @@ html {
 /* GOAL PAGE BEGIN ========================================== */
 #goal-container {
   top: 0%;
-  left: 50%;
+  left: 45%;
   transform: translate(-50%,0);
-  height: 10000px;
-
-  background-color: grey;
-
+  height: 1500px;
 }
 
 .goal-content {
@@ -382,5 +379,4 @@ html {
 
   color: white;
   font-size: 1.5em;
-  background-color: black;
 }
