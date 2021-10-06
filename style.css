@@ -356,7 +356,9 @@ html {
   transform: translate(875px,-350px) rotate(90deg);
 }
 
-
+.item-video {
+  width:150px;
+}
 
 
 /* ITEM PAGE END ========================================== */
