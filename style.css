@@ -308,10 +308,17 @@ html {
   right: 20px;
   top: 50%;
   transform: translate(0,-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .side_description {
   color: white;
   text-align: center;
+}
+.side-image {
+  width: 200px;
+  margin: auto;
 }
 .side_alien {
   font-family: Alien;
