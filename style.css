@@ -64,7 +64,7 @@ html {
   transform: translate(-50%,-50%);
   width: 90vw;
   height: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
 
 }
 
@@ -306,7 +306,7 @@ html {
 .sidebar {
   position: fixed;
   right: 20px;
-  top: 50%;
+  top: 55%;
   transform: translate(0,-50%);
   display: flex;
   flex-direction: column;
@@ -328,7 +328,7 @@ html {
   top: 0%;
   left: 45%;
   transform: translate(-50%,0);
-  height: 12000px;
+  height: 12500px;
 }
 
 .item-content {
@@ -350,6 +350,7 @@ html {
 }
 
 .item-name {
+  font-size: 1.2em;
   font-weight: bold;
   position: absolute;
   transform-origin: left;
@@ -357,7 +358,10 @@ html {
 }
 
 .item-video {
+  position: absolute;
+  transform: translate(-802.5px,-2.5px);
   width:160px;
+  border: groove 5px #b8fff5;
 }
 
 
@@ -381,4 +385,24 @@ html {
 
   color: white;
   font-size: 1.5em;
+}
+
+#goal-image {
+  width: 400px;
+  transform: translate(0,25px);
+}
+#goal-img-description {
+  position: absolute;
+  transform: translate(75px,25px);
+  font-size: 0.7em;
+}
+
+#goal-text1 {
+  width: 550px;
+  position: absolute;
+  transform: translate(450px,-550px);
+}
+#goal-text2 {
+  position: absolute;
+  transform: translate(0,100px);
 }
