@@ -328,7 +328,7 @@ html {
   top: 0%;
   left: 45%;
   transform: translate(-50%,0);
-  height: 10000px;
+  height: 12000px;
 }
 
 .item-content {
@@ -357,7 +357,7 @@ html {
 }
 
 .item-video {
-  width:150px;
+  width:160px;
 }
 
 
