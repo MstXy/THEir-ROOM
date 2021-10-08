@@ -400,6 +400,13 @@ html {
   transform: translate(450px,-550px);
 }
 #goal-text2 {
+  width: 1000px;
   position: absolute;
   transform: translate(0,100px);
+}
+#logo {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%,450px);
+  width: 100px;
 }
