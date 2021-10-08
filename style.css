@@ -352,16 +352,13 @@ html {
 .item-name {
   font-size: 1.2em;
   font-weight: bold;
-  position: absolute;
+  /* position: absolute;
   transform-origin: left;
-  transform: translate(875px,-350px) rotate(90deg);
+  transform: translate(900px,-100px) rotate(90deg); */
 }
 
 .item-video {
-  position: absolute;
-  transform: translate(-802.5px,-2.5px);
   width:160px;
-  border: groove 5px #b8fff5;
 }
 
 

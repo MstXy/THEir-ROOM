@@ -101,3 +101,15 @@ function playAudio(e) {
   }
 
 }
+
+
+// ITEM PAGE ===============================================
+let item_vids = document.getElementsByClassName("item-video");
+for (var i = 0; i < item_vids.length; i++) {
+  item_vids[i].addEventListener('mouseover', function (e) {
+    e.target.play();
+  });
+  item_vids[i].addEventListener('mouseout', function (e) {
+    e.target.pause();
+  });
+}
