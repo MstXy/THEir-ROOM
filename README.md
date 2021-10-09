@@ -39,9 +39,9 @@ The 3D Ken Burns Effect we used in our object pictures did not perform well as i
 There is a relative high portion of text and sound in our website, which we deliberately put there to enhance the sense of ridiculousness and irony. However, as the course continues we are going to study more machine learning algorithms about sounds and texts. Hence if we have the opportunity to improve our texts and sound, we would love to come back to this project.
 
 ### 5.	REFERENCES
-[1]	Urban, Tim. “The AI Revolution: The Road to Superintelligence.” Wait But Why, 7 Sept. 2017, waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html.
+[1]	Urban, Tim. “The AI Revolution: The Road to Superintelligence.” Wait But Why, 7 Sept. 2017, https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html.
 [2]	Brock, Andrew et al.. “Large Scale GAN Training for High Fidelity Natural Image Synthesis.” ICLR 2019, 25 Feb. 2019, https://arxiv.org/abs/1809.11096.
 [3]	“Better Language Models and Their Implications (GPT-2).” OpenAI, https://openai.com/blog/better-language-models/.
 [4]	Niklaus, Simon et al.. “3D Ken Burns Effect from a Single Image.”  CVPR 2019, 12 Sept. 2019, https://arxiv.org/abs/1909.05483.
-[5]	“Quarantine - Post Apocalyptic Scene - Unreal Engine 4.” YouTube, uploaded by Maverick, 6 Apr. 2020, www.youtube.com/watch?v=uth3OjRkt0s&feature=youtu.be.
-[6]	Miller, Tim, et al. “Three Robots.” Netflix, uploaded by Netflix, 15 Mar. 2019, www.netflix.com/ae-en/title/80174608.
+[5]	“Quarantine - Post Apocalyptic Scene - Unreal Engine 4.” YouTube, uploaded by Maverick, 6 Apr. 2020, https://www.youtube.com/watch?v=uth3OjRkt0s.
+[6]	Miller, Tim, et al. “Three Robots.” Netflix, uploaded by Netflix, 15 Mar. 2019, https://www.netflix.com/ae-en/title/80174608.
