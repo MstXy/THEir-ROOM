@@ -401,14 +401,13 @@ html {
 }
 
 #goal-text1 {
-  width: 550px;
+  width: 500px;
   position: absolute;
   transform: translate(450px,-550px);
 }
 #goal-text2 {
-  width: 1000px;
   position: absolute;
-  transform: translate(0,100px);
+  transform: translate(0,125px);
 }
 #logo2 {
   position: absolute;
